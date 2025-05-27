@@ -1,0 +1,82 @@
+body {
+      background: linear-gradient(to right, #c492e88b, #300e95);
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+#all-contents {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* navigation menu */
+nav {
+  background: linear-gradient(to left, #b30e0e, #ff85518b);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    flex: 1;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* main container area beneath menu */
+main {
+    background: linear-gradient(#ffebd7,#ffe1a5);
+    display: flex;
+    margin-top: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border:2px solid blue;
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}
+
+.sidebar-img {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #3498db;
+    display: block;
+    margin: 0 auto;
+}
+
+.content {
+    flex: 1;
+    padding: 15px;
+}
+
+/* interests section styles */
+#interests {
+    border: 4px silver ridge;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+h2, h3 {
+    margin: 0px;
+}
