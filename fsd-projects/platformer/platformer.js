@@ -31,17 +31,34 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
+    createPlatform(500, 300, 100, 20, "green");
+    createPlatform(15, 500, 150, 20, "red");
+    createPlatform(600,700,25,20,"purple");
+    createPlatform(250,550,50,20,"blue");
+    createPlatform(400,375,50,20,"red");
+    createPlatform(350,500,50,20,"yellow");
+    createPlatform(750,650,50,20,"blue");
+    createPlatform(1050,715,50,20,"green");
+    createPlatform(700,175,50,20,"purple");
+    createPlatform(950,450,50,20,"yellow");
+    createPlatform(1250,600,50,20,"green");
+    createPlatform(1350,475,50,20,"blue");
+    createPlatform(350,675,100,20,"red"); //show when purple hit coin
 
 
 
 
     // TODO 3 - Create Collectables
-
+    createCollectable("steve", 590, 650, 0.5, 0.7);
+    createCollectable("steve", 1053, 675, 0.5, 0.7);
+    createCollectable("steve", 703,130,0.5,0.7);
 
 
     
     // TODO 4 - Create Cannons
-
+    createCannon("top", 200, 3500,50,1300);
+    createCannon("left",570,1000);
+    createCannon("right",350,2000);
 
     
     
