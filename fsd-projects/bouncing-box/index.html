@@ -7,9 +7,10 @@
 	<script src="jquery.min.js"></script>
 	<style>
 		.board{
-			background-image: url("data:image/jpeg;base64,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"), url("data:image/jpeg;base64,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");
+			background-image: url("https://img.freepik.com/premium-vector/floating-island-game-platforms-arcade-levels_8071-61068.jpg");
  			background-color: #cccccc;
 			background-blend-mode: hard-light;
+			background-size: contain;
 		}
 		.box {
 			width: 70px;
@@ -51,8 +52,11 @@
 			var boardWidth = board.width();	// the maximum X-Coordinate of the screen
 
 			// Every 50 milliseconds, call the update Function (see below)
-			setInterval(update, 50);
-
+			var interval = setInterval(update, 50);
+			var click = -1;
+			function endGame() {
+  				clearInterval(interval);
+			}
 			// Every time the box is clicked, call the handleBoxClick Function (see below)
 			box.on('click', handleBoxClick);
 
@@ -77,8 +81,8 @@
 				var speed = 1;
 				var positionY =0;
 				var speedY = 0;
-				var boardHeight = jQuery(window).height();
-				var boardWidth=jQuery(window).width();
+				var boardHeight = jQuery(window).height()-80;
+				var boardWidth=jQuery(window).width()-80;
 				var randNum = Math.random() * 100;
 				var colorStr = "rgb(50, 25, 250)";
 				var colorStr2 = "rgb(150, 125, 75)";
@@ -90,11 +94,12 @@
 			function update() {
 				moveBoxTo(positionX,positionY);
 				positionX += speed;
+				positionY += speedY;
 				if(positionX>boardWidth){
 					speed*=-1
 				} else if(positionX<0) {
 					speed*=-1;
-				} else if (positionY>boardWidth){
+				} else if (positionY>boardHeight){
 					speedY*=-1
 				} else if(positionY<0) {
 					speedY*=-1;
